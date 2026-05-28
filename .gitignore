@@ -1,0 +1,24 @@
+# System
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# TA and instructor materials
+TA_README.md
+
+# Backend scripts
+build_track_network.py
+build_train_stats.py
+geodesic_vs_train.py
+prepare_student_data.py
+instructor_preprocess.py
+
+# Old drafts
+PROJECT_B_DESIGN.md
+
+# Raw intermediate data (not used by student notebooks)
+data/edges.csv
+
+# Generated images (produced by running notebooks)
+images/
