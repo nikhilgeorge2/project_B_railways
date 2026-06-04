@@ -3,40 +3,6 @@
 
 ---
 
-## What this project is
-
-You will analyse the actual Indian Railways timetable as a network, then present what you found as an investigation report.
-
-The network measures physical track connections weighted by train frequency — not passengers, not freight, not economic importance. A packed express and an empty goods train look identical in this data. Everything you find must be interpreted through that constraint.
-
----
-
-## Getting started
-
-```bash
-git clone https://github.com/nikhilgeorge2/project_B_railways.git
-cd project_B_railways
-jupyter notebook
-```
-
-Work through the notebooks in order:
-
-| Notebook | What you do |
-|---|---|
-| `nb1_build_the_network.ipynb` | Understand the raw schedule data, build the physical track network |
-| `nb2_who_matters.ipynb` | Compute degree and betweenness, compare them, run the removal simulation |
-| `nb3_why_bihar.ipynb` | Measure geodesic vs train distance, map the barriers, research founding years |
-
----
-
-## The data
-
-417,080 individual station stops · 4,888 trains · 8,697 stations
-
-The raw source is the Indian Railways timetable. Track connections represent physical rail links; edge weights are the number of trains sharing each connection.
-
----
-
 ## The presentation
 
 **15–20 slides. You choose the structure.**
